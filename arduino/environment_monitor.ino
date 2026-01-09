@@ -12,6 +12,16 @@ float displayTemperature()
   Serial.println(" deg C");
 }
 
+int displayHumidity()
+{
+  int humSensor = analogRead(humPin);
+  int humPercentage = mapa(humSensor, 0, 1023, 0, 100);
+
+  Serial.print("Humidity: ");
+  Serial.print(humPercentage);
+  Serial.println("%");
+}
+
 void setup()
 {
   Serial.begin(9600);
@@ -19,7 +29,9 @@ void setup()
 
 void loop()
 {
+  Serial.println("---------------------");
   displayTemperature();
+  displayHumidity();
 
   delay(5000);
 }
