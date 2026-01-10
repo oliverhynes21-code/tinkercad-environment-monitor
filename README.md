@@ -60,8 +60,11 @@ In a real greenhouse environment, this project could be used to:
 
 ## Screenshots
 - The arduino/breadboard based circuit built in tinkercad:
+  
 !["Arduino/Breadboard based cicruit"](screenshots/arduinoProject.png)
+
 - Outputs seen on the serial monitor after giving the circuit some sample data:
+  
 !["Serial Monitor Output"](screenshots/arduinoProjectOutput.png)
 
 ---
