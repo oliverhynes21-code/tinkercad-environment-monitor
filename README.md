@@ -74,5 +74,5 @@ In a real greenhouse environment, this project could be used to:
 - Tinkercad
 - Serial communication
 - Basic electronics and sensors
-- 
+
 ---
