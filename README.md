@@ -1,10 +1,10 @@
 # Arduino Greenhouse Environment Monitor
 
 ## Overview
-This project is a simulated arduino-based environmental monitoring system designed to measure key aspects of the environment inside a greenhouse.
-The circuit measures **temperature**, **light intensity**, and **humidity-related input** and outputs these values via the serial monitor.
+This project is an arduino-based environmental monitoring system designed to measure several conditions of the environment inside a greenhouse.
+The circuit measures **temperature**, **light intensity**, and **humidity-related input** and outputs these values in a readable format via the serial monitor.
 
-The aim of the project is to demonstrate how embedded systems and sensor data can be used to monitor and optimise conditions for plant growth.
+The aim of the project is to demonstrate how a combination of arduinos/other microcontrollers and sensors can be used to monitor and optimise conditions for plant growth.
 
 The circuit and code were developed using tinkerCad, using the various components available but making substitutions where needed (potentiometer used instead of humidity sensor as there was no humidity sensor available)
 The built-in code editor in tinkerCad was also used to program the sketch for the arduino in C++
@@ -17,7 +17,7 @@ The built-in code editor in tinkerCad was also used to program the sketch for th
 - Monitor humidity (simulated with a potentiometer due to simulator constraints)
 
 - Outputs these values in a readable format with the necessary units via the serial monitor
-- Designed with the use-case of monitoring the environment inside a greenhouse in mind.
+- Designed to monitor the environment inside a greenhouse.
 
 ---
 
